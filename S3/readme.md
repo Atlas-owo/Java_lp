@@ -90,6 +90,7 @@ boolean	只有 true 和 false 两个值。
 ||		或
 !		非
 ### 3.5 位运算符
+```
 &	按位与
 
 |	按位或
@@ -103,6 +104,7 @@ boolean	只有 true 和 false 两个值。
 >>	右移
 
 >>>	无符号右移
+```
 ### 3.6 三元运算符
 ```
 	条件式?值1:值2；	//如果条件式为真，则整个表达式的值为 值1，否则为 值2.
@@ -110,8 +112,11 @@ boolean	只有 true 和 false 两个值。
 ## 4 数据类型转换
 ### 4.1 隐式转换
 byte,short,char				——int
+
 byte,short,char,int			——long
+
 byte,short,char,int,long	——float
+
 ……,float					——double
 
 ### 4.2 显式转换
