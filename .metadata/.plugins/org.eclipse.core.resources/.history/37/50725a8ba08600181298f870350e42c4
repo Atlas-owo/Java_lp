@@ -1,0 +1,10 @@
+package 位运算符;
+
+public class 按位与 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
