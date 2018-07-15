@@ -1,0 +1,12 @@
+package String类;
+
+public class String类方法 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		char a[] = {'a','p','e'};
+		String s = new String(a);
+		System.out.println(s);
+	}
+
+}
