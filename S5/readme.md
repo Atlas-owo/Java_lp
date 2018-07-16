@@ -31,5 +31,42 @@ String s = new String (char a[],int offsent,int length);	//其中offsent表示�
 ### 5.2.2 字符串查找
 ```
 	str.indexOf(substr)
-	E: int postion = str.indexOf(app);
+	E: int postion = str.indexOf(app);	//返回该字符串首次出现的位置，若没有出现，则返回-1
 ```
+```
+	str.lastIndexOf(substr)		//返回该字符串最后一次出现的位置，若没有则返回-1
+```
+### 5.2.3 获取指定位置的字符
+```
+	str.charAt(int index)
+```
+## 5.3 字符串操作
+### 5.3.1 获取子字符串
+```
+	str.substring(int beginIndex)				//返回从指定的位置到结尾的字符串的子串
+	str.substring(int beginIndex,int endIndex)	//返回从指定位置开始到指定位置结束的子串
+```
+### 5.3.2 去掉空格
+```
+	str.trim();
+```
+### 5.3.3 字符串替换
+```
+	str.replace(char oldChar,char newChar)		//oldChar、newChar为字符或字符串。全部替换。
+```
+### 5.3.4 判断字符串的开始与结尾
+```
+	str.startsWith(String prefix)		//String prefix为前置的字符或字符串
+	str.endsWith(String suffix)
+	//返回均为boolean型
+```
+### 5.3.5 判断字符串是否相等
+```
+	str.equals(String1 String2)				//区分大小写
+	str.equalsIgnoreCase(String1 String2)	//不区分大小写
+	//返回值均为boolean型
+```
+
+
+
+	```
