@@ -66,7 +66,24 @@ String s = new String (char a[],int offsent,int length);	//其中offsent表示�
 	str.equalsIgnoreCase(String1 String2)	//不区分大小写
 	//返回值均为boolean型
 ```
+### 5.3.6 按字典顺序比较两个字符串（？）
+```
+	str.compareTo(String1 String2)
+```
+### 5.3.7 字母大小写切换
+```
+	str.toLowerCase()
+	str.toUpperCase()
+```
+### 5.3.8 字符串分割
+```
+	str.spilt(String sign)				//其中sign为分割字符串的分隔符，
+	str.spilt(String sign,int limit)	//其中limit为限制的切割次数
+```
+## 5.4 格式化字符串
+```
+	str.format(String format,Object...args)
+```
 
+### 5.4.1 日期与时间字符格式化
 
-
-	```
